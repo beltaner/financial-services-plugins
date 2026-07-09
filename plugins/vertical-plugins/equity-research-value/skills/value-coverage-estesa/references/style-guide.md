@@ -81,8 +81,11 @@ In order:
 4. Line: "Data del report: [data] · Prezzo all'analisi: $X · Orizzonte: 5–10 anni"
 5. **Summary table, 5 columns**: Qualità | Fair value | Margine di sicurezza |
    Rating | IRR attesa 10a — one data row (e.g. "26 / 30 | $168 | 15,5% |
-   ACCUMULARE | ~11,7%"). Header row navy with white text.
-6. One-paragraph "Settore / L'attività in una frase" block.
+   ACCUMULARE | ~11,7%"). Header row navy with white text. Do NOT bold the data
+   row cells (keep "26 / 30" and the rating label in regular weight, as ICE does).
+6. One-paragraph "Settore / L'attività in una frase" block. Write it as flowing
+   prose; do NOT use bold run-in labels ("**Settore:**", "**L'attività in una
+   frase:**") — plain text, as in the ICE report.
 7. **Indice** (table of contents) with dot leaders and page numbers.
 
 ### Tables
@@ -136,12 +139,46 @@ In order:
 
 ## 4. Editorial Style
 
+The ICE initiating coverage is the reference for register and emphasis. INTU
+(June 2026) drifted too heavy — bold on nearly every figure, bold run-in leads,
+"**Verdetto:**" in neretto, and telegraphic data-packing (3x the parentheses,
+~2x the "~"/"%", +52% acronyms vs ICE per 1,000 words). Do NOT reproduce the
+INTU texture. Target the ICE texture below.
+
+- **Register: discursive and explanatory.** Prefer full sentences that explain
+  the "why" over telegraphic data-packing. When you cite a figure, embed it in a
+  clause that interprets it rather than dropping it in parentheses. Aim for ICE's
+  texture — roughly 30–33-word sentences, about 9 parentheticals and 6 "~" per
+  1,000 words — and stay well below INTU's denser register.
+
+- **Emphasis discipline — bold is rare:**
+  - NEVER bold numbers, percentages, prices, multiples, tickers, dates, or
+    currency amounts. Figures live in the prose in regular weight.
+  - Bold at most 1–2 genuinely pivotal CONCEPT phrases per section, never one per
+    paragraph. If a page shows more than ~3 bold spans, it is over-bolded — cut back.
+  - NO bold run-in paragraph leads ("**Definizione e dimensionamento.** …").
+    Introduce a sub-topic with the teal italic H2 subsection header, or with a
+    plain topic sentence.
+  - Italics only for: the page-1 tagline, occasional rhetorical pivots,
+    figure/table captions, and short quoted management phrases.
+
+- **Abbreviation & density discipline:**
+  - Spell out each acronym on first use per major section, then use it sparingly;
+    vary with plain Italian (e.g. "fai-da-te" for DIY, "l'automazione" for AI).
+    Never hammer a single acronym dozens of times.
+  - In running prose write "circa" and "all'anno", not "~" and "/"; keep the
+    symbols "~", "%", "/", "x" inside tables and charts, and use them in prose
+    only where spelling out would be clumsy.
+  - At most one parenthetical per sentence — convert the rest into clauses.
+
 - Long-form analytical prose; every section opens with a framing paragraph.
-- Bold for key inline concepts; italics for the tagline and rhetorical pivots.
-- Each "extended" section closes with an explicit verdict ("Verdetto: ...",
-  "È rumore o segnale?", "La riconciliazione in una riga...").
-- The pressure-points section uses the fixed rubric "Punto di pressione N — ..."
-  and closes each with the noise-vs-signal judgment.
+- Each "extended" section still closes with an explicit verdict, but render the
+  verdict as a teal italic lead or a plain sentence ("Il verdetto è …", "È rumore
+  o segnale?", "La riconciliazione in una riga…"), NOT as a bold "**Verdetto:**"
+  run-in.
+- The pressure-points section uses the fixed rubric "Punto di pressione N — …"
+  (rendered as a teal italic H2, not bold) and closes each with the
+  noise-vs-signal judgment.
 - The final "Metodologia e Fonti" section lists primary sources (treated as
   authoritative), secondary sources, the method weights actually used, and the
   standard disclaimer that the rating is the mechanical output of the MOS
