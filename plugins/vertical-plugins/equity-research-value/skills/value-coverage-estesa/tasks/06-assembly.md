@@ -13,27 +13,41 @@ A `.docx` file at: `{TICKER}_value_coverage_{YYYY-MM-DD}.docx`
 
 Target: 50-62 pages, 19,000-26,000 words, Times New Roman 11pt body, 14pt
 section headers, 12pt subsection headers, single-spaced, 1-inch margins.
+**Aim for the UPPER half of that range (55-62 pages / 22,000-26,000 words):
+19,000 is the floor for a thin name, not the goal. The user prefers a
+consistently descriptive, expansive report over a tight one.**
 
 ### LENGTH MANDATE (non-negotiable)
 
 The user is making real capital-allocation decisions and requires an exhaustive
-report. The finished docx MUST reach at least 50 pages / 19,000 words. This is
-a hard floor, not an aspiration. Concretely:
+report. The finished docx MUST reach at least 50 pages / 19,000 words, and
+SHOULD target 55-62 pages / 22,000-26,000 words. This is a hard floor plus a
+target, not an aspiration. Concretely:
 
 - Each section's word target below is a MINIMUM, not a ceiling. If a section
   comes in under target, expand it with more analysis — never pad with filler,
   but every claim should carry its full reasoning, evidence, and implication.
+- **DENSITY / EXPANSIVENESS IS A STANDING REQUIREMENT.** Develop every point as
+  full analytical paragraphs, never as compressed one-line bullets. Wherever the
+  spec lists items (reasons to own/avoid, risks, growth drivers, pressure
+  points, quality dimensions, catalysts), EACH item is rendered as a developed
+  paragraph (typically 80-150 words) with quantified evidence and an explicit
+  "so what" — not a terse list entry. Prefer breadth and depth of reasoning over
+  brevity. A section that reads as a bulleted summary rather than developed prose
+  is a defect to be fixed before delivery.
 - Do NOT compress or summarize the extended research from Task 1 when
   transcribing it into sections 2-7. Transcribe in full and refine; if anything,
   add depth. A common failure is sections 8-16 thinning out as generation
   proceeds — guard against this explicitly and keep the back half as dense as
   the front half.
-- After drafting, COUNT the total words. If below 19,000, identify the
+- After drafting, COUNT the total words. If below the 22,000 target, identify the
   thinnest sections and expand them with additional sub-analysis (more
   granular segment discussion, additional historical context, deeper treatment
-  of each risk, fuller scenario narratives) until the floor is met.
+  of each risk, fuller scenario narratives, worked examples of unit economics)
+  until the target is met. Only fall back to the 19,000 floor for genuinely
+  data-poor names where more depth would require inventing content.
 - Quality is paramount, but for this user length is itself a requirement:
-  a thorough 50-page report is the deliverable, not a tight 30-page one.
+  a thorough 55-page report is the deliverable, not a tight 30-page one.
 
 ## Prerequisites
 
@@ -72,8 +86,8 @@ a hard floor, not an aspiration. Concretely:
   date, "For private use only. Not investment advice."
 - Table of contents (auto-generated from heading styles)
 
-### 1. Snapshot (1-1.5 pages, ~500 words)
-Transcribe and condense from Task 1 Section 1 PLUS valuation conclusions from
+### 1. Snapshot (2-2.5 pages, ~900-1,100 words)
+Transcribe and expand from Task 1 Section 1 PLUS valuation conclusions from
 Task 4 summary. Must include:
 - Ticker, exchange, current price, market cap, enterprise value
 - Sector, business in one sentence
@@ -81,7 +95,15 @@ Task 4 summary. Must include:
 - **Rating** (Strong Buy / Accumulate / Hold / Avoid)
 - **Price levels**: Fair value (primary target), Buy-below ($FV×0.75),
   Trim-above ($FV×1.20) — each with % distance from current price
-- Top 3 reasons to own, top 3 reasons NOT to own
+- **Three reasons to own and three reasons NOT to own — rendered as DEVELOPED
+  PARAGRAPHS, never one-line bullets.** Place them under two dedicated H2
+  subsections: "Tre ragioni per possederlo" and "Tre ragioni per non
+  possederlo". Each of the six reasons is a full paragraph (80-150 words) with a
+  **bold lead-in label**, quantified evidence, and an explicit implication for
+  durability / returns / growth / value. A terse bulleted list here is a defect
+  to be fixed — this is a hard requirement, not a stylistic preference.
+- A one-paragraph "thesis in a paragraph" synthesis tying quality, price, and
+  the central swing variable together.
 - 10-year expected IRR (probability-weighted)
 
 ### 2. Industry & Sector Analysis (2,800-3,500 words)
@@ -229,11 +251,13 @@ Transcribe from Task 1 Section 7.
   fair value point estimate. Buy-below and trim-above are operational levels,
   not short-term forecasts.
 - Declarative voice. "Revenue grew 8% per year" — not "We believe revenue
-  grew approximately 8%."
+  grew approximately 8%".
 - No first-person plural ("we", "our view"). Third-person analytical voice
   or stated facts.
 - Every fact in extended sections is followed by an implication ("so what")
   for durability, returns, growth, or value.
+- **Every list-like element (reasons, risks, drivers, dimensions, catalysts,
+  pressure points) is written as developed paragraphs, not terse bullets.**
 - If forecast confidence is low in a section, state so explicitly.
 
 ## Formatting Standards
@@ -270,8 +294,13 @@ repeated here (the style guide prevails on any conflict):
 
 ## Quality Checks Before Concluding Task 6
 
-- [ ] **Total word count >= 19,000 (hard floor); page count >= 50.** If not,
-      expand the thinnest sections before finalizing — do not deliver under floor.
+- [ ] **Total word count >= 19,000 (hard floor); TARGET 22,000-26,000; page
+      count >= 50, target 55-62.** If below target, expand the thinnest sections
+      before finalizing — do not deliver a thin report when depth is available.
+- [ ] **Section 1 renders the 3+3 reasons as developed paragraphs under two H2
+      subsections — NOT one-line bullets.**
+- [ ] **No list-like element anywhere reads as a terse bullet list where a
+      developed paragraph is expected (reasons, risks, drivers, catalysts).**
 - [ ] All 17 sections present in order (incl. Section 8 Evoluzione su 8 Trimestri)
 - [ ] Each section meets its individual word MINIMUM (targets are floors)
 - [ ] Back-half sections (8-16) are as dense as front-half sections (2-7)
