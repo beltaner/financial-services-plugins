@@ -50,13 +50,18 @@ later be transcribed and condensed into 5 of the 16 sections of the final docx.
 
 ## Section Structure
 
-### 1. Snapshot (300-500 words)
+### 1. Snapshot (400-600 words)
 - Ticker, exchange, current price (from web search if not in filings), market
   cap, enterprise value
 - Sector and business in one sentence
 - Identified sector-specific KPI set (the 6-8 KPIs)
-- Top 3 reasons to consider owning
-- Top 3 reasons NOT to own
+- **Top 3 reasons to consider owning** — each written as a DEVELOPED point
+  (2-4 sentences), with a bold lead-in label, quantified evidence, and its
+  implication for value. Not one-line labels.
+- **Top 3 reasons NOT to own** — same depth (2-4 sentences each, bold lead-in,
+  evidence, implication). These feed the final report's Section 1, which renders
+  them as full paragraphs under two H2 subsections; carry enough substance here
+  for that expansion.
 - 3 questions the rest of the research must answer
 
 ### 2. Industry & Sector Analysis (EXTENDED — 2,800-3,500 words)
@@ -184,6 +189,8 @@ Before saving the file, verify:
 - [ ] All 8 sections present
 - [ ] Five extended sections meet their word minimums
 - [ ] Sector-specific KPIs identified and used consistently
+- [ ] The 3+3 reasons in Snapshot are developed points (bold lead-in, evidence,
+      implication), not one-line labels
 - [ ] Every fact in extended sections is followed by an implication ("so what")
 - [ ] No invented data — every number traces to a source document or web search
 - [ ] Recent Issues distinguishes noise from signal
